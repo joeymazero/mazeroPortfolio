@@ -1,0 +1,61 @@
+#imageTable td {
+  padding: 20px;
+}
+
+.nameStyle{
+	font-family:monospace, serif;
+	font-size: 55px;
+	line-height: 20%;
+}
+
+.introLinks {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.gameTitle{
+text-indent: 75px;	
+}
+.gameContents{
+  padding-right: 75px;
+  padding-left: 75px;
+}
+
+.taglineStyle{
+	line-height : 50%;
+	font-family:arial;
+}
+
+#introContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#aboutTag {
+	padding-left: 25px;
+}
+
+#aboutPar {
+	padding-left: 25px;
+	line-height: 5;
+	font-size:15px;
+}
+
+#meImage  {
+    float: right;
+}
+
+td.description {
+  vertical-align: top;
+}
